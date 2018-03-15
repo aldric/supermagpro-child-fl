@@ -1,0 +1,377 @@
+/*
+
+ Theme Name:   SuperMagPro Child
+
+ Theme URI:    http://www.acmethemes.com/themes/supermagpro/
+
+ Description:  SuperMagPro Child Theme
+
+ Author:       acmethemes
+
+ Author URI:   http://www.acmethemes.com/
+
+ Template:     supermagpro
+
+ Version:      1.0.0
+
+ License:      GNU General Public License v2 or later
+
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ Tags:         orange, brown, yellow etc
+
+ Text Domain:  supermagpro-child
+
+*/
+
+
+/* First level of nav */
+
+.pc-tab {
+  padding: 5px 20px;
+}
+
+.bs-docs-sidenav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* All levels of nav */
+
+.bs-docs-sidebar .nav>li>a {
+  display: block;
+  padding: 4px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #767676;
+}
+
+.bs-docs-sidebar .nav>li>a:hover,
+.bs-docs-sidebar .nav>li>a:focus {
+  padding-left: 19px;
+  color: #F88C00;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 1px solid #F88C00;
+}
+
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+  padding-left: 18px;
+  font-weight: bold;
+  color: #F88C00;
+  background-color: transparent;
+  border-left: 2px solid #F88C00;
+}
+
+
+/* Nav: second level (shown on .active) */
+
+.bs-docs-sidebar .nav .nav {
+  /*display: none; Hide by default, but at >768px, show it */
+  padding-bottom: 10px;
+}
+
+.bs-docs-sidebar .nav .nav>li>a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bs-docs-sidebar .nav .nav>li>a:hover,
+.bs-docs-sidebar .nav .nav>li>a:focus {
+  padding-left: 29px;
+}
+
+.bs-docs-sidebar .nav .nav>.active>a,
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+  padding-left: 28px;
+  font-weight: 500;
+}
+
+div.widget-custom ul {
+  padding-left: 10px;
+}
+
+span.breadcrumb {
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: #f13600;
+  border-radius: 4px;
+  line-height: 28px;
+  margin-right: 10px;
+}
+
+#supermag-breadcrumbs .breadcrumb-container {
+  line-height: 28px;
+}
+
+div.breadcrumb-container span[property="name"] {
+  display: inline-block;
+  padding: 0;
+  margin-top: -3px;
+  vertical-align: middle;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.ranking-widget dl,
+div.ranking-widget dt {
+  margin-bottom: 0.2rem;
+}
+
+div.ranking-widget dl,
+div.ranking-widget div.pb-4.mb-2,
+div.ranking-widget div.card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+ul.rating-green {
+  color: #5cb85c;
+  text-align: center;
+}
+
+ul.rating {
+  color: #ffa000;
+  text-align: center;
+}
+
+.header-wrapper ul.sub-menu li a {
+  font-size: 13px;
+}
+
+.main-navigation ul li {
+  font-size: 14px;
+}
+
+.header-wrapper .main-navigation ul ul ul.sub-menu {
+  top: inherit;
+  margin-top: -48px;
+}
+
+.error404 #primary .not-found {
+  padding-top: 0;
+}
+
+.error404 a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover,
+.list-group-item.active:hover {
+  background-color: #f13600;
+  border-color: #002e6e;
+  color: white;
+}
+
+li.menu-bforbank,
+li.menu-boursorama,
+li.menu-fortuneo,
+li.menu-hellobank,
+li.menu-ingdirect,
+li.menu-monabanq,
+li.menu-bankin,
+li.menu-lynxo,
+li.menu-ditto,
+li.menu-morning,
+li.menu-fidor,
+li.menu-orangebank,
+li.menu-wesave,
+li.menu-ibanfirst,
+li.menu-fintech,
+li.menu-mbank,
+li.menu-obank,
+li.menu-news,
+li.menu-comp,
+li.menu-azimo,
+li.menu-revolut,
+li.menu-grisbee,
+li.menu-anytime,
+li.menu-ca,
+li.menu-cm,
+li.menu-hush {
+  padding-left: 37px;
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-position-y: center;
+}
+
+li.menu-bforbank {
+  background-image: url('menu/32x32/bforbank.png');
+}
+
+li.menu-boursorama {
+  background-image: url('menu/32x32/boursorama.png');
+}
+
+li.menu-fortuneo {
+  background-image: url('menu/32x32/fortuneo.png');
+}
+
+li.menu-hellobank {
+  background-image: url('menu/32x32/hellobank.png');
+}
+
+li.menu-ingdirect {
+  background-image: url('menu/32x32/ingdirect.png');
+}
+
+li.menu-monabanq {
+  background-image: url('menu/32x32/monabanq.png');
+}
+
+li.menu-bankin {
+  background-image: url("menu/32x32/bankin.png");
+}
+
+li.menu-lynxo {
+  background-image: url("menu/32x32/lynxo.png");
+}
+
+li.menu-ditto {
+  background-image: url("menu/32x32/ditto.png");
+}
+
+li.menu-fidor {
+  background-image: url("menu/32x32/fidor.png");
+}
+
+li.menu-morning {
+  background-image: url("menu/32x32/morning.png");
+}
+
+li.menu-orangebank {
+  background-image: url("menu/32x32/orangebank.png");
+}
+
+li.menu-wesave {
+  background-image: url("menu/32x32/wesave.png");
+}
+
+li.menu-bruno {
+  background-image: url("menu/32x32/bruno.png");
+}
+
+li.menu-ibanfirst {
+  background-image: url("menu/32x32/ibanfirst.png");
+}
+
+li.menu-fintech {
+  background-image: url("menu/32x32/fintech.png");
+}
+
+li.menu-mbank {
+  background-image: url("menu/32x32/mobile-bank.png");
+}
+
+li.menu-obank {
+  background-image: url("menu/32x32/online-bank.png");
+}
+
+li.menu-news {
+  background-image: url("menu/32x32/news.png");
+}
+
+li.menu-comp {
+  background-image: url("menu/32x32/find.png");
+}
+
+li.menu-azimo {
+  background-image: url("menu/32x32/azimo.png");
+}
+
+li.menu-revolut {
+  background-image: url("menu/32x32/revolut.png");
+}
+
+li.menu-grisbee {
+  background-image: url("menu/32x32/grisbee.png");
+}
+
+li.menu-ca {
+  background-image: url("menu/32x32/credit-agricole.png");
+}
+
+li.menu-cm {
+  background-image: url("menu/32x32/credit-mutuel.png");
+}
+li.menu-anytime {
+  background-image: url("menu/32x32/anytime.png");
+}
+li.menu-hush {
+  background-image: url("menu/32x32/hush.png");
+}
+li.default-cursor>a:first-child {
+  cursor: default;
+}
+
+ul.featured-entries-col.featured-entries.featured-acme-col-posts figure.widget-image {
+  text-align: center;
+}
+
+.featured-entries-col .widget-image img {
+  max-height: 170px;
+  width: auto;
+}
+
+.header-image.float-right {
+  text-align: right;
+  width: 68%;
+  padding-top: 10px;
+}
+
+div.nav-links .widget-image img {
+  width: auto;
+  margin: 0 auto;
+  display: inherit;
+}
+.btn-large {
+  line-height: 56px;
+  width: 56px;
+  height: 56px;
+}
+
+.fixed-action-btn {
+  position: fixed;
+  bottom: 45px;
+  right: 24px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 997;
+}
+
+.btn-floating {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0;
+  background-color: #26a69a;
+  border-radius: 50%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  vertical-align: middle;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.btn-floating i.fa {
+  margin: 0;
+  color:white;
+}
+.fab-up {
+  color: #ffffff;
+  display: block;
+  font-size: 36px;
+  line-height: 40px;
+  padding-bottom: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
