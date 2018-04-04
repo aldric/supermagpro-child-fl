@@ -1,0 +1,944 @@
+{
+    "key": "group_5ab13861b3cae",
+    "title": "Fiche bookmaker",
+    "fields": [
+        {
+            "key": "field_5ab1699c5dac1",
+            "label": "Nom du bookmaker",
+            "name": "bk_name",
+            "type": "text",
+            "instructions": "Nom du bookmaker",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab16686bea18",
+            "label": "Image bookmaker",
+            "name": "bk_image",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ab15e85d463d",
+            "label": "Avis de l'\u00e9quipe",
+            "name": "bk_rating",
+            "type": "number",
+            "instructions": "Note sur 5 (Sera transform\u00e9e par la suite en \u00e9toiles si besoin)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": 5,
+            "step": "0.5"
+        },
+        {
+            "key": "field_5ab1617703c4f",
+            "label": "Licence Arjel",
+            "name": "bk_arjel_licence",
+            "type": "true_false",
+            "instructions": "Le bookmaker a la licence Arjel (l'image sera affich\u00e9e le cas \u00e9ch\u00e9ant)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1
+        },
+        {
+            "key": "field_5ab2baf51c371",
+            "label": "Label : Montant du premier d\u00e9p\u00f4t",
+            "name": "bk_first_deposit_label",
+            "type": "text",
+            "instructions": "Label affich\u00e9 pour le d\u00e9p\u00f4t minimum",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Montant du premier d\u00e9pot",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab15f6dd4640",
+            "label": "Montant du premier d\u00e9p\u00f4t",
+            "name": "bk_first_deposit",
+            "type": "text",
+            "instructions": "Montant du premier d\u00e9p\u00f4t minimum (ie : ajouter la devise \u20ac)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "ex : 10\u20ac",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab2bb4a1c372",
+            "label": "Label : Montant de retrait minimum",
+            "name": "bk_min_wd_amt_label",
+            "type": "text",
+            "instructions": "Label affich\u00e9 pour le montant du retrait",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Montant mimimun de retrait",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab160f503c4d",
+            "label": "Montant de retrait minimum",
+            "name": "bk_min_wd_amt",
+            "type": "text",
+            "instructions": "Montant minimum que l'on peut retirer (avec la devise : \u20ac)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "ex : 10\u20ac",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab2bb811c373",
+            "label": "Label : Montant de mise minimum",
+            "name": "bk_min_bet_label",
+            "type": "text",
+            "instructions": "Label : pour la Mise minimum",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Mise minimum",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab1615103c4e",
+            "label": "Montant de mise minimum",
+            "name": "bk_min_bet",
+            "type": "text",
+            "instructions": "Montant de la mise minimum avec la devise",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Montant minimum du pari (avec devise \u20ac)",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab2bbdb1c374",
+            "label": "Label : Bonus",
+            "name": "bk_bonus_label",
+            "type": "text",
+            "instructions": "Label pour le bonus",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Bonus",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab15ed7d463e",
+            "label": "Bonus",
+            "name": "bk_bonus",
+            "type": "text",
+            "instructions": "Montant du bonus, mettre la devise a la suite (ex: \u20ac)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "ex : 200\u20ac",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab15f22d463f",
+            "label": "Type de bonus",
+            "name": "bk_bonus_type",
+            "type": "text",
+            "instructions": "Le type de bonus propos\u00e9 par le bookmaker",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "ex : Cashback ou Freebet",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab2bc311c375",
+            "label": "Label : Type de bonus",
+            "name": "bk_bonus_type_label",
+            "type": "text",
+            "instructions": "Label : Le type de bonus propos\u00e9 p",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Type de bonus",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab2bc631c376",
+            "label": "Label : C\u00f4tes",
+            "name": "bk_odds_label",
+            "type": "text",
+            "instructions": "Label : Des cotes",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Qualit\u00e9 des c\u00f4tes",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab15fb6d4641",
+            "label": "C\u00f4tes",
+            "name": "bk_odds",
+            "type": "radio",
+            "instructions": "Pour savoir si les c\u00f4tes sont bonnes ou pas.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "+",
+                "2": "++",
+                "3": "+++"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ab2bc961c377",
+            "label": "Label : Application mobile",
+            "name": "bk_mobile_app_label",
+            "type": "text",
+            "instructions": "Label : applications mobiles",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Applications disponibles",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab1605003c4c",
+            "label": "Application mobile",
+            "name": "bk_mobile_app",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "ios": "Apple",
+                "android": "Android",
+                "windows": "Windows Phone"
+            },
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ab161f803c50",
+            "label": "Cashout",
+            "name": "bk_cashout",
+            "type": "true_false",
+            "instructions": "Le bookmaker propose le cashout",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1
+        },
+        {
+            "key": "field_5ab1622503c51",
+            "label": "Streaming",
+            "name": "bk_streaming",
+            "type": "true_false",
+            "instructions": "Le bookmaker propose le streaming des matchs",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1
+        },
+        {
+            "key": "field_5ab1624f03c52",
+            "label": "Paris en direct",
+            "name": "bk_live_bets",
+            "type": "true_false",
+            "instructions": "Le bookmaker propose des paris en direct",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1
+        },
+        {
+            "key": "field_5ab22da6e73c3",
+            "label": "Lien affili\u00e9 principal",
+            "name": "bk_aff_link",
+            "type": "url",
+            "instructions": "Saisir le lien favoris de redirection",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ab22f79f630d",
+            "label": "Texte \"long\" pour CTA",
+            "name": "bk_aff_text_long",
+            "type": "text",
+            "instructions": "Texte utilis\u00e9 dans le widget lat\u00e9ral de la fiche bookmaker",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Pariez maintenant !",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab22fe1f630e",
+            "label": "Texte \"court\" pour CTA",
+            "name": "bk_aff_text_short",
+            "type": "text",
+            "instructions": "Texte utilis\u00e9 dans les box",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Pariez !",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ac24feda662c",
+            "label": "Couleur du bouton lien affili\u00e9",
+            "name": "bk_aff_link_color",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "orange": "Orange",
+                "cyan": "Bleu",
+                "green": "Vert"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "orange",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ab4153e31554",
+            "label": "Lien vers la revue",
+            "name": "bk_review_link",
+            "type": "page_link",
+            "instructions": "S\u00e9lectionner la revue",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [],
+            "taxonomy": [],
+            "allow_null": 0,
+            "allow_archives": 1,
+            "multiple": 0
+        },
+        {
+            "key": "field_5ab416024efe5",
+            "label": "Texte \"long\" pour revue",
+            "name": "bk_review_text_long",
+            "type": "text",
+            "instructions": "Texte long pour le lien vers la revue",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lire la revue compl\u00e8te",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab416064efe6",
+            "label": "Texte \"court\" pour revue",
+            "name": "bk_review_text_short",
+            "type": "text",
+            "instructions": "Texte court pour l",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lire le test",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab1629103c53",
+            "label": "Fantasy League",
+            "name": "bk_fantasy_league",
+            "type": "true_false",
+            "instructions": "Le bookmaker propose de la FL",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0
+        },
+        {
+            "key": "field_5ab3cbb1d8100",
+            "label": "Avis de l'\u00e9quipe Fantasy League",
+            "name": "bk_rating_fl",
+            "type": "number",
+            "instructions": "Note sur 5 (Sera transform\u00e9e par la suite en \u00e9toiles si besoin)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": 5,
+            "step": "0.5"
+        },
+        {
+            "key": "field_5ab162c403c54",
+            "label": "Nom du jeu de FL",
+            "name": "bk_fl_name",
+            "type": "text",
+            "instructions": "Le nom du jeu de FL propos\u00e9 par le bookmaker",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "ex : Le jeu de l'entraineur",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab167cf371e8",
+            "label": "Image du jeu de FL",
+            "name": "bk_fl_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "66",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ab3cc06d8101",
+            "label": "Label : Buy-In \/ Droit d'entr\u00e9e",
+            "name": "bk_fl_buyin_label",
+            "type": "text",
+            "instructions": "Label utlis\u00e9 pour Buy-In \/ Droit d'entr\u00e9e",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Droit d'entr\u00e9e",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab3cc60d8103",
+            "label": "Buy-In \/ Droit d'entr\u00e9e",
+            "name": "bk_fl_buyin",
+            "type": "text",
+            "instructions": "Valeur du Buy-In \/ Droit d'entr\u00e9e",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "ex : 30\u20ac",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab3cc9cd8104",
+            "label": "Label : Dotation maximum",
+            "name": "bk_fl_maxgain_label",
+            "type": "text",
+            "instructions": "Label pour la dotation maximum",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Dotation maximum",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab3ccd0d8105",
+            "label": "Dotation maximum",
+            "name": "bk_fl_maxgain",
+            "type": "text",
+            "instructions": "Valeur la dotation maximum",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab3d7d85cfd7",
+            "label": "Label : Sports Disponibles",
+            "name": "bk_fl_available_sports_label",
+            "type": "text",
+            "instructions": "Label pour les sports disponibles",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Sports",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab3cda0d810a",
+            "label": "Sports disponibles",
+            "name": "bk_fl_available_sports",
+            "type": "checkbox",
+            "instructions": "Texte court pr bouton d'affi FL",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "football": "Football",
+                "basketball": "Basketball"
+            },
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ab3ce23d810b",
+            "label": "Lien affili\u00e9 FL",
+            "name": "bk_aff_link_fl",
+            "type": "url",
+            "instructions": "Saisir le lien favoris de redirection (si vide, le lien de base sera utilis\u00e9)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ab3cd28d8107",
+            "label": "Fantasy league : Texte \"long\" pour CTA",
+            "name": "bk_aff_text_fl_long",
+            "type": "text",
+            "instructions": "Texte long pr bouton d'affi FL",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Devenez l'entra\u00eeneur !",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab3cd53d8108",
+            "label": "Fantasy league : Texte \"court\" pour CTA",
+            "name": "bk_aff_text_fl_short",
+            "type": "text",
+            "instructions": "Texte court pr bouton d'affi FL",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Visiter",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ac25080a662d",
+            "label": "Couleur du bouton Fantasy",
+            "name": "bk_aff_link_fl_color",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab1629103c53",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "orange": "Orange",
+                "cyan": "Bleu",
+                "green": "Vert"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "orange",
+            "layout": "vertical",
+            "return_format": "value"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "fiche_bookmaker"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1522684242
+}

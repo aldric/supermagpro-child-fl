@@ -231,7 +231,7 @@ if ( ! function_exists( 'supermag_page_end' ) ) :
         if( 1 == $supermag_customizer_all_values['supermag-footer-gotop']) {
             ?>
            <div class="fab-up fixed-action-btn">
-            <a class="btn-floating btn-large orange">
+            <a class="btn-floating btn-large primary">
                 <i class="fa fa-angle-double-up" aria-hidden="true"></i>
             </a>
             </div>

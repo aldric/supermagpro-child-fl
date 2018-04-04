@@ -1,0 +1,121 @@
+{
+    "key": "group_5ac1f2467ec30",
+    "title": "Widget Highlighted Events",
+    "fields": [
+        {
+            "key": "field_5ac21ee760ce3",
+            "label": "Titre du widget \"matchs a la une\"",
+            "name": "widget_title",
+            "type": "text",
+            "instructions": "Si non renseign\u00e9, le widget n'aura pas de titre",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Le match du jour",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ac39d9d2b4d4",
+            "label": "Matchs a la une",
+            "name": "highlighted_events",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Ajouter un \u00e9l\u00e9ment",
+            "sub_fields": [
+                {
+                    "key": "field_5ac39dc42b4d5",
+                    "label": "Matchs a afficher",
+                    "name": "event",
+                    "type": "post_object",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "highlighted_event"
+                    ],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "return_format": "object",
+                    "ui": 1
+                }
+            ]
+        },
+        {
+            "key": "field_5ac39e0e2b4d6",
+            "label": "Carousel",
+            "name": "use_carousel",
+            "type": "true_false",
+            "instructions": "Afficher en carousel, sinon a la suite",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1
+        },
+        {
+            "key": "field_5ac39e502b4d7",
+            "label": "Carousel Name",
+            "name": "carousel_name",
+            "type": "text",
+            "instructions": "Nom du carousel sans espace",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "widget",
+                "operator": "==",
+                "value": "agt_daily_game"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1522781221
+}
