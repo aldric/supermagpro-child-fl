@@ -313,3 +313,7 @@ main.archive-cards article a.read-more {
         top:10px;
     }
 }
+
+aside#search-4 {
+    margin: 0;
+}
