@@ -176,7 +176,8 @@ li.menu-tennis,
 li.menu-rugby,
 li.menu-fantasy,
 li.menu-bet,
-li.menu-news {
+li.menu-news,
+li.menu-bookies {
     padding-left: 37px;
     background-repeat: no-repeat;
     background-position: 5px;
@@ -206,6 +207,9 @@ li.menu-bet {
 
 li.menu-news {
     background-image: url('menu/32x32/news.png');
+}
+li.menu-bookies {
+    background-image: url('menu/32x32/bookmakers.png');
 }
 
 .header-wrapper #site-navigation {
