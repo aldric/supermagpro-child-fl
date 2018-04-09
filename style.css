@@ -304,16 +304,29 @@ div.nav-links .widget-image img {
 
 .archive-cards article a.read-more {
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-    display: inline-block;
-    width: auto;
+    display: block;
+    clear: both;
+    padding: 1px 3px;
+    width: 110px;
+    font-weight: 500;
+    margin-right: 0;
+    position: absolute;
+    right: 15px;
+}
+div.archive-cards .blog-alternate-image div.post-thumb {
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+	width: 24%;
 }
 
-.blog-alternate-image article .post-thumb {
-    max-height: 110px;
+div.archive-cards  article .post-thumb {
+    max-width: 125px;
+    max-height: 125px;
     text-align: center;
 }
 
-.blog-alternate-image article .post-thumb img {
+div.archive-cards article .post-thumb img {
     max-height: 110px;
     width: auto;
 }

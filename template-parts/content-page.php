@@ -74,7 +74,7 @@ if (!is_front_page()) {
 
 	if ($childrens_array && sizeof($childrens_array > 0)) {
 		foreach ($childrens_array as $post) : setup_postdata($post);
-			get_template_part('template-parts/content', get_post_format());
+		get_template_part('template-parts/content', get_post_format());
 		endforeach;
 		wp_reset_postdata();
 	}
