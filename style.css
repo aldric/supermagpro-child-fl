@@ -177,7 +177,8 @@ li.menu-rugby,
 li.menu-fantasy,
 li.menu-bet,
 li.menu-news,
-li.menu-bookies {
+li.menu-bookies,
+li.menu-wc {
     padding-left: 37px;
     background-repeat: no-repeat;
     background-position: 5px;
@@ -211,6 +212,10 @@ li.menu-news {
 li.menu-bookies {
     background-image: url('menu/32x32/bookmakers.png');
 }
+li.menu-wc {
+    background-image: url('menu/32x32/wc-blanc.png');
+}
+
 
 .header-wrapper #site-navigation {
     min-height: 50px;

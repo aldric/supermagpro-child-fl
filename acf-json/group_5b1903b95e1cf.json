@@ -1,0 +1,56 @@
+{
+    "key": "group_5b1903b95e1cf",
+    "title": "Widget display",
+    "fields": [
+        {
+            "key": "field_5b1903e3db86b",
+            "label": "Afficher le match du jour",
+            "name": "should_display_daily_game_widget",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0
+        },
+        {
+            "key": "field_5b190431db86c",
+            "label": "Afficher la formation fantasy",
+            "name": "should_display_fantasy_widget",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "!=",
+                "value": "custom_css"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1528366263
+}
